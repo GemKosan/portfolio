@@ -7,12 +7,14 @@ import BannerLanding from '../components/BannerLanding'
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
+import favicon from '../assets/images/favicon.ico'
 
 const Landing = (props) => (
     <Layout>
         <Helmet>
             <title>Landing - Forty by HTML5 UP</title>
             <meta name="description" content="Landing Page" />
+            <link rel="icon" href={favicon} />
         </Helmet>
 
         <BannerLanding />

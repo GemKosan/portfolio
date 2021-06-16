@@ -3,12 +3,14 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import pic11 from '../assets/images/pic11.jpg'
+import favicon from '../assets/images/favicon.ico'
 
 const Generic = (props) => (
     <Layout>
         <Helmet>
             <title>Generic - Forty by HTML5 UP</title>
             <meta name="description" content="Generic Page" />
+            <link rel="icon" href={favicon} />
         </Helmet>
 
         <div id="main" className="alt">

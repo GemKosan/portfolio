@@ -4,47 +4,44 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form method="post" action="#">
-                    <div className="field half first">
-                        <label htmlFor="name">Name</label>
-                        <input type="text" name="name" id="name" />
-                    </div>
-                    <div className="field half">
-                        <label htmlFor="email">Email</label>
-                        <input type="text" name="email" id="email" />
-                    </div>
-                    <div className="field">
-                        <label htmlFor="message">Message</label>
-                        <textarea name="message" id="message" rows="6"></textarea>
-                    </div>
-                    <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="special" /></li>
-                        <li><input type="reset" value="Clear" /></li>
-                    </ul>
-                </form>
+                <a href="https://docs.google.com/document/d/1a7oTr0hWdiaCh016am2sVeRw1Io6AYHhywYCdJ_6Mbk/export?format=pdf">
+                    <iframe title="Gem's résumé" src="https://docs.google.com/document/d/e/2PACX-1vRgmZ6OkX9Yt4DWyZQueCfKTSeBvEJeNkn-I1Pb41nWiQxm6HE81CNpzisk1y90c_HNBvgrtulcaMTs/pub?embedded=true"
+                    style={{
+                        width: "100%",
+                        height: "100%",
+                    }}
+                    ></iframe>
+                </a>
             </section>
             <section className="split">
-                <section>
+            <section>
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">information@untitled.tld</a>
+                        <a href="mailto:gem.kosan77@gmail.com">gem.kosan77@gmail.com</a>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Phone</h3>
-                        <span>(000) 000-0000 x12387</span>
+                        <span>(512)745-5338</span>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
-                        <span className="icon alt fa-home"></span>
-                        <h3>Address</h3>
-                        <span>1234 Somewhere Road #5432<br />
-                        Nashville, TN 00000<br />
-                        United States of America</span>
+                        <span className="icon alt fa-file"></span>
+                        <a href="https://www.linkedin.com/in/gemkosan/">
+                            Find me on LinkedIn
+                        </a>
+                    </div>
+                </section>
+                <section>
+                    <div className="contact-method">
+                        <span className="icon alt fa-linkedin"></span>
+                        <a href="https://docs.google.com/document/d/1a7oTr0hWdiaCh016am2sVeRw1Io6AYHhywYCdJ_6Mbk/export?format=pdf">
+                            Download my resume
+                        </a>
                     </div>
                 </section>
             </section>
