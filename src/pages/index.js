@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
+import projBooks from '../assets/images/proj-books.png'
 import favicon from '../assets/images/favicon.ico'
 
 class HomeIndex extends React.Component {
@@ -26,7 +26,7 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{backgroundImage: `url(${projBooks})`}}>
                             <header className="major">
                                 <h3>Book Search</h3>
                                 <p>A small project using Bootstrap 4, React and the Google Books API</p>
