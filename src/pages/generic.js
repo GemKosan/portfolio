@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import pic11 from '../assets/images/pic11.jpg'
-import favicon from '../assets/images/favicon.ico'
+import favicon from '../assets/images/favicon-32x32.png'
 
 const Generic = (props) => (
     <Layout>

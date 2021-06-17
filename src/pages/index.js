@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
 import projBooks from '../assets/images/proj-books.png'
-import favicon from '../assets/images/favicon.ico'
+import favicon from '../assets/images/favicon-32x32.png'
 
 class HomeIndex extends React.Component {
     render() {
