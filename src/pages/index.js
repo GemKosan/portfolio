@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
@@ -27,11 +26,12 @@ class HomeIndex extends React.Component {
                 <div id="main">
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${projBooks})`}}>
-                            <header className="major">
-                                <h3>Book Search</h3>
-                                <p>A small project using Bootstrap 4, React and the Google Books API</p>
-                            </header>
-                            <Link to="https://gk-books.netlify.app/" className="link primary"></Link>
+                            <a href="https://gk-books.netlify.app/" className="link primary">
+                                <header className="major">
+                                    <h3>Book Search</h3>
+                                    <p>A small project using Bootstrap 4, React and the Google Books API</p>
+                                </header>
+                            </a>
                         </article>
                         <article>
                             <header className="major">

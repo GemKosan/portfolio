@@ -4,14 +4,12 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <a href="https://docs.google.com/document/d/1a7oTr0hWdiaCh016am2sVeRw1Io6AYHhywYCdJ_6Mbk/export?format=pdf">
-                    <iframe title="Gem's résumé" src="https://docs.google.com/document/d/e/2PACX-1vRgmZ6OkX9Yt4DWyZQueCfKTSeBvEJeNkn-I1Pb41nWiQxm6HE81CNpzisk1y90c_HNBvgrtulcaMTs/pub?embedded=true"
-                    style={{
-                        width: "100%",
-                        height: "100%",
-                    }}
-                    ></iframe>
-                </a>
+                <iframe title="Gem's résumé" src="https://docs.google.com/document/d/e/2PACX-1vRgmZ6OkX9Yt4DWyZQueCfKTSeBvEJeNkn-I1Pb41nWiQxm6HE81CNpzisk1y90c_HNBvgrtulcaMTs/pub?embedded=true"
+                style={{
+                    width: "100%",
+                    height: "100%",
+                }}
+                ></iframe>
             </section>
             <section className="split">
             <section>
