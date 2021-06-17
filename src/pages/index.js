@@ -19,7 +19,7 @@ class HomeIndex extends React.Component {
                     ]}
                     htmlAttributes={{
                         lang: 'en-US',
-                      }}
+                    }}
                 >
                     <link rel="icon" href={favicon} />
                 </Helmet>

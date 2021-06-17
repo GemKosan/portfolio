@@ -17,9 +17,6 @@ const Landing = (props) => (
             <title>Landing - Forty by HTML5 UP</title>
             <meta name="description" content="Landing Page" />
             <link rel="icon" href={favicon} />
-            htmlAttributes={{
-                lang: 'en-US',
-            }}
         </Helmet>
 
         <BannerLanding />
