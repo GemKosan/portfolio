@@ -11,10 +11,15 @@ import favicon from '../assets/images/favicon-32x32.png'
 
 const Landing = (props) => (
     <Layout>
-        <Helmet>
+        <Helmet htmlAttributes={{
+            lang: 'en-US',
+        }}>
             <title>Landing - Forty by HTML5 UP</title>
             <meta name="description" content="Landing Page" />
             <link rel="icon" href={favicon} />
+            htmlAttributes={{
+                lang: 'en-US',
+            }}
         </Helmet>
 
         <BannerLanding />

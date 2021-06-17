@@ -17,6 +17,9 @@ class HomeIndex extends React.Component {
                         { name: 'description', content: 'Sample' },
                         { name: 'keywords', content: 'sample, something' },
                     ]}
+                    htmlAttributes={{
+                        lang: 'en-US',
+                      }}
                 >
                     <link rel="icon" href={favicon} />
                 </Helmet>

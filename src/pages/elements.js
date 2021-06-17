@@ -10,7 +10,9 @@ import favicon from '../assets/images/favicon-32x32.png'
 
 const Elements = (props) => (
     <Layout>
-        <Helmet>
+        <Helmet htmlAttributes={{
+            lang: 'en-US',
+        }}>
             <title>Elements - Forty by HTML5 UP</title>
             <meta name="description" content="Elements Page" />
             <link rel="icon" href={favicon} />
