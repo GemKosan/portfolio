@@ -1,10 +1,9 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Layout from '../components/layout'
 import favicon from '../assets/images/favicon-32x32.png'
 
 const NotFoundPage = () => (
-  <Layout>
+  <>
     <Helmet htmlAttributes={{
       lang: 'en-US',
     }}>
@@ -16,11 +15,11 @@ const NotFoundPage = () => (
         <section id="one">
             <div className="inner">
                 <h1>NOT FOUND</h1>
-                <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+                <p>You just hit a route that doesn&#39;t exist...</p>
             </div>
         </section>
     </div>
-  </Layout>
+  </>
 )
 
 export default NotFoundPage

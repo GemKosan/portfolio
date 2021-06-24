@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
+import Contact from '../components/Contact'
 
 import projBooks from '../assets/images/proj-books.png'
 import favicon from '../assets/images/favicon-32x32.png'
@@ -14,8 +15,13 @@ class HomeIndex extends React.Component {
                 <Helmet
                     title="Gem Kosan's Portfolio"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'og:title', content: 'Gem Kosan\'s Portfolio' },
+                        { name: 'og:site_name', content: 'Web Dev Gem' },
+                        { name: 'og:description', content: 'I\'m a front-end developer with a focus on creating usable UIs with React.' },
+                        { name: 'og:url', content: 'https://www.webdevgem.com' },
+                        { name: 'og:image', content: 'https://www.webdevgem.com/static/banner-d461879033c82559bfc624c3b33fc52d.jpg' },
+                        { name: 'twitter:image:alt', content: 'A man squatting on a rocky precipice with sky above and ocean below.' },
+                        { name: 'twitter:card', content: 'summary_large_image' },
                     ]}
                     htmlAttributes={{
                         lang: 'en-US',
@@ -25,6 +31,7 @@ class HomeIndex extends React.Component {
                 </Helmet>
 
                 <Banner />
+                <Contact />
 
                 <div id="main">
                     <section id="one" className="tiles">
