@@ -19,7 +19,7 @@ class HomeIndex extends React.Component {
                         { name: 'og:site_name', content: 'Web Dev Gem' },
                         { name: 'og:description', content: 'I\'m a front-end developer with a focus on creating usable UIs with React.' },
                         { name: 'og:url', content: 'https://www.webdevgem.com' },
-                        { name: 'og:image', content: 'https://www.webdevgem.com/static/banner-f7e05bb5ce73e916086d27f97d936a56.jpg' },
+                        { name: 'og:image', content: 'https://www.webdevgem.com/static/banner.jpg' },
                         { name: 'twitter:image:alt', content: 'A man squatting on a rocky precipice with sky above and ocean below.' },
                         { name: 'twitter:card', content: 'summary_large_image' },
                     ]}
