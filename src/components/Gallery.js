@@ -16,7 +16,7 @@ const Gallery = (props) => (
 				<Link
 					to="https://gk-books.netlify.app/"
 					className="link primary"
-				></Link>
+				><span class="sr-only">Book Search</span></Link>
 			</article>
 			<article>
 				<header className="major">
