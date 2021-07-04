@@ -28,7 +28,7 @@ const Contact = (props) => (
                 </section>
                 <section>
                     <div className="contact-method">
-                        <span className="icon alt fa-file"></span>
+                        <span className="icon alt fa-linkedin"></span>
                         <a href="https://www.linkedin.com/in/gemkosan/">
                             Find me on LinkedIn
                         </a>
@@ -36,7 +36,7 @@ const Contact = (props) => (
                 </section>
                 <section>
                     <div className="contact-method">
-                        <span className="icon alt fa-linkedin"></span>
+                        <span className="icon alt fa-file"></span>
                         <a href="https://docs.google.com/document/d/1a7oTr0hWdiaCh016am2sVeRw1Io6AYHhywYCdJ_6Mbk/export?format=pdf">
                             Download my resume
                         </a>
