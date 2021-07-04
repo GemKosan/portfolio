@@ -4,7 +4,7 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <iframe title="Gem's résumé" src="https://docs.google.com/document/d/e/2PACX-1vRgmZ6OkX9Yt4DWyZQueCfKTSeBvEJeNkn-I1Pb41nWiQxm6HE81CNpzisk1y90c_HNBvgrtulcaMTs/pub?embedded=true"
+                <iframe id="inline-resume" title="Gem's résumé" src="https://docs.google.com/document/d/e/2PACX-1vRgmZ6OkX9Yt4DWyZQueCfKTSeBvEJeNkn-I1Pb41nWiQxm6HE81CNpzisk1y90c_HNBvgrtulcaMTs/pub?embedded=true"
                 style={{
                     width: "100%",
                     height: "100%",
