@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    url: "http://www.webdevgem.com",
+    url: "https://www.webdevgem.com",
     title: "Web Dev Gem",
     author: "Gem Kosan",
     description: "I'm a frontend developer with a focus on creating usable UIs with React. I develop web pages using modern technologies like JavaScript, React, HTML5, and CSS3.",
