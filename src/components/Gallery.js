@@ -10,7 +10,7 @@ const Gallery = (props) => (
 				<header className="major">
 					<h3>Soda POP!</h3>
 					<p>
-						A simple game were you pop bubbles with song lyrics. Created in vanilla JavaScript, CSS, and HTML. No JS libraries.
+						A simple game were you pop bubbles with song lyrics. Created in vanilla JavaScript, CSS, and HTML. No JS libraries except sound, which uses howler.js.
 					</p>
 				</header>
 				<Link
